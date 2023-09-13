@@ -17,11 +17,33 @@
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  color: black;
+}
+label {
+  font-weight: 300;
+  font-size: 20px;
+}
+input {
+  height: 20px;
+  border-radius: 5px;
+}
+button {
+  border-radius: 5px;
+  margin: 20px;
+  padding: 8px;
+  width: 200px;
+}
+
+.breadCrumb {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("../img/background.jpg");
+  font-size: 3rem;
+  font-family: "Roboto";
+  color: white;
+  height: 300px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
 }
